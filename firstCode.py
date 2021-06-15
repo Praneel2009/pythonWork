@@ -20,6 +20,7 @@ score2 = 56 # int(input("score2: "))
 # 6. using f-string
 # 7. using %s means it's a string %s = string
 # 8. using %i means it's an integer %i = integer school = "Killian"  #"Harmony"
+
 school = "killIAn"
 
 print(school[0])
