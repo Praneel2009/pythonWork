@@ -4,14 +4,20 @@ lastName = "Yarlagadda"
 fullName = firstName + " " + lastName
 score1 = 34 # int(input("score1: "))
 score2 = 56 # int(input("score2: "))
+scoreTest = score1/score2
+finalScore = score2 + score1
+print(f"Score1: {scoreTest}")
+print(f"Score1: {scoreTest:18.2f}")
+print(f"score1: {score1:18d}")
+print(f"score1: {score1:18d}")
 
 # print("My Name is: " + fullName + ", not done yet,....")
 #print("Result: " + str(score2-score1) + ", end of program....")
-# finalScore=score2 + score1
 # print("My Name: %s, my score: %i" % (fullName, finalScore))
 # print("My Name: {} my score: {}" .format(finalScore, fullName))
 # print("My Name: {first}, my score: {second}".format(second=fullName, first=finalScore))
 # print(f"My Name: {fullName}, my score: {finalScore}") # This is the best way so use it like this
+
 # plain format, passing multiple values
 # 2. string concatenate : sting join
 # 3. using % format
@@ -23,16 +29,25 @@ score2 = 56 # int(input("score2: "))
 
 school = "killIAn"
 
-print(school[0])
-length = (len(school))
-print(school[0])
-print(school[3:])
+#print(school[0])
+#length = (len(school))
+#print(school[0])
+#print(school[3:])
 # print(school<start>:<end>:<increment: 1 or -1>)
-print(school[6:1:-1])# print(school[1:6:2])
-print(school[2:6:2])
-print(school[1:6:2])
+#print(school[6:1:-1])# print(school[1:6:2])
+#print(school[2:6:2])
+#print(school[1:6:2])
 
 print(school[0].upper() + school[1:].lower())
+school = "pillians"
+print(school[0])
+
+newString = "p" + school[1:]
+print(newString)
+print (189/7)
+
+
+
 # # 1 = (-1): 0
 # # 0 + (-1): -1
 # name = "prANeEl yarLAgAdDa"
