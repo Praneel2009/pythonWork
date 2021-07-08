@@ -1,6 +1,6 @@
 a = int(input("enter range "))
-b = int(a+1)
-number = range(1, b)
+number = range(1, a+1)
 
 print(*number, sep="")
+
 
